@@ -104,6 +104,35 @@ section + section {
     margin-top: 28px;
 }
 
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 32px;
+}
+
+.contact li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: var(--blue);
+}
+
+.icon-mail path,
+.icon-pin circle {
+    stroke: #fff;
+    fill: #fff;
+}
+
+.icon-mail path {
+    fill: none;
+}
+
 .item {
     display: flex;
     justify-content: space-between;
