@@ -28,7 +28,7 @@ ul {
     list-style: none;
 }
 
-/* ---------- Page (format A4) ---------- */
+/* Page */
 .page {
     width: 210mm;
     min-height: 297mm;
@@ -39,7 +39,7 @@ ul {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* ---------- En-tête : photo à droite ---------- */
+/* En-tête */
 .hero {
     position: relative;
     margin-top: 40px;
@@ -77,11 +77,11 @@ ul {
     z-index: 1;
 }
 
-/* ---------- Corps : 2 colonnes ---------- */
+/* Corps */
 .content {
     flex: 1;
     display: grid;
-    grid-template-columns: 1fr 1.9fr;
+    grid-template-columns: 1fr;
     gap: 40px;
     padding: 50px 40px 30px;
 }
@@ -104,48 +104,6 @@ section + section {
     margin-top: 28px;
 }
 
-/* ---------- Sidebar ---------- */
-.sidebar p {
-    margin-bottom: 10px;
-    word-break: break-word;
-    font-size: 0.85rem;
-}
-
-.label {
-    display: block;
-    font-weight: 600;
-    font-size: 0.75rem;
-    color: var(--blue);
-    text-transform: uppercase;
-}
-
-.sidebar li {
-    font-size: 0.85rem;
-    margin-bottom: 4px;
-}
-
-.languages li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.bar {
-    flex: 0 0 55%;
-    height: 6px;
-    border-radius: 3px;
-    background: var(--muted);
-    overflow: hidden;
-}
-
-.bar i {
-    display: block;
-    height: 100%;
-    background: var(--blue);
-}
-
-/* ---------- Colonne principale ---------- */
 .item {
     display: flex;
     justify-content: space-between;
@@ -173,7 +131,7 @@ article p {
     text-align: justify;
 }
 
-/* ---------- Pied de page ---------- */
+/* Pied de page */
 footer {
     background: var(--navy);
     color: #fff;
@@ -182,7 +140,7 @@ footer {
     padding: 12px;
 }
 
-/* ---------- Mobile ---------- */
+/* Mobile */
 @media (max-width: 800px) {
     .page {
         width: 100%;
@@ -216,7 +174,7 @@ footer {
     }
 }
 
-/* ---------- Impression / export PDF ---------- */
+/* Impression */
 @media print {
     @page {
         size: A4;
