@@ -4,83 +4,147 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CV MBANGA TSHIBANDA JOE</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <header>
-            <div>
-                <h1>JOE MBANGA</h1>
-                <cite>ETUDIANT EN INFORMATIQUE</cite>
-            </div>
-            <div>
-                <img src="IMG-20241118-WA0138.jpg" alt="photo de Joe Mbanga" />
-            </div>
-        </header>
-        <body>
-            <section>
-                <h2>Coordonnées</h2>
-                <p>Tel: <a href="tel:+243895966663">+243 895 966 663</a></p>
-                <p>
-                    Email:
-                    <a href="mailto:joembanga19@gmail.com"
-                        >joembanga19@gmail.com</a
-                    >
-                </p>
-                <p>Addresse: <span>Kinshasa/Mont-Ngafula</span></p>
-            </section>
-            <section>
-                <h2>éducation</h2>
-                <div>
-                    <div>
-                        <h4>Diplome d'Etat en Sciences</h4>
-                        <p>College Notre Dame du Congo - Kinshasa</p>
-                    </div>
-                    <p>2022 - 2024</p>
+        <div class="page">
+            <header class="hero">
+                <div class="hero-text">
+                    <h1>JOE MBANGA</h1>
+                    <p class="role">ETUDIANT EN INFORMATIQUE</p>
                 </div>
-                <div>
-                    <div>
-                        <h4>Formation en Développement web</h4>
+                <img
+                    class="hero-photo"
+                    src="IMG-20241118-WA0138.jpg"
+                    alt="Photo de Joe Mbanga"
+                />
+            </header>
+
+            <div class="content">
+                <aside class="sidebar">
+                    <section>
+                        <h2>Coordonnées</h2>
                         <p>
-                            <a href="http://grafikart.fr" target="_blank"
-                                >grafikart.fr</a
+                            <span class="label">Tél</span>
+                            <a href="tel:+243895966663">+243 895 966 663</a>
+                        </p>
+                        <p>
+                            <span class="label">Email</span>
+                            <a href="mailto:joembanga19@gmail.com"
+                                >joembanga19@gmail.com</a
                             >
-                            - Online
                         </p>
-                    </div>
-                    <p>2024 - 2025</p>
-                </div>
-                <div>
-                    <div>
-                        <h4>Formation en Anglais</h4>
-                        <p>Friendina College - Kinshasa</p>
-                    </div>
-                    <p>2025 - 2026</p>
-                </div>
-                <div>
-                    <div>
-                        <h4>Licence en Informatique</h4>
                         <p>
-                            Université de Kinshasa, Faculté des Sciences et
-                            Technologie - Kinshasa
+                            <span class="label">Adresse</span>
+                            Kinshasa / Mont-Ngafula
                         </p>
-                    </div>
-                    <p>2025 - En cours</p>
-                </div>
-            </section>
-            <section>
-                <h2>Projet de vie</h2>
-                <article>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Numquam nam nulla libero quo, eligendi iure sequi!
-                        Temporibus alias ipsa saepe fugit, ducimus non illum
-                        porro exercitationem vel.
-                    </p>
-                </article>
-            </section>
-        </body>
-        <footer>
-            <p>Car rien n'est impossible à Dieu</p>
-        </footer>
+                    </section>
+
+                    <section>
+                        <h2>Langues</h2>
+                        <ul class="languages">
+                            <li>
+                                <span>Français</span>
+                                <span class="bar"><i style="width: 90%"></i></span>
+                            </li>
+                            <li>
+                                <span>Anglais</span>
+                                <span class="bar"><i style="width: 65%"></i></span>
+                            </li>
+                            <li>
+                                <span>Lingala</span>
+                                <span class="bar"><i style="width: 65%"></i></span>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Compétences</h2>
+                        <ul>
+                            <li>Gestion du temps</li>
+                            <li>Travail d'équipe</li>
+                            <li>Capacité d'organisation</li>
+                            <li>Communication</li>
+                            <li>Leadership</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Centres d'intérêt</h2>
+                        <ul>
+                            <li>Lecture</li>
+                            <li>Programmation</li>
+                            <li>Basketball</li>
+                            <li>Films</li>
+                        </ul>
+                    </section>
+                </aside>
+
+                <main class="main">
+                    <section>
+                        <h2>Éducation</h2>
+                        <div class="item">
+                            <div>
+                                <h3>Diplôme d'État en Sciences</h3>
+                                <p>Collège Notre Dame du Congo - Kinshasa</p>
+                            </div>
+                            <time>2022 - 2024</time>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <h3>Formation en Développement web</h3>
+                                <p>
+                                    <a href="http://grafikart.fr" target="_blank"
+                                        >grafikart.fr</a
+                                    >
+                                    - Online
+                                </p>
+                            </div>
+                            <time>2024 - 2025</time>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <h3>Formation en Anglais</h3>
+                                <p>Friendina College - Kinshasa</p>
+                            </div>
+                            <time>2025 - 2026</time>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <h3>Licence en Informatique</h3>
+                                <p>
+                                    Université de Kinshasa, Faculté des Sciences
+                                    et Technologie - Kinshasa
+                                </p>
+                            </div>
+                            <time>2025 - En cours</time>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2>Projet de vie</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Numquam nam nulla libero quo,
+                                eligendi iure sequi! Temporibus alias ipsa saepe
+                                fugit, ducimus non illum porro exercitationem
+                                vel.
+                            </p>
+                        </article>
+                    </section>
+                </main>
+            </div>
+
+            <footer>
+                <p>Car rien n'est impossible à Dieu</p>
+            </footer>
+        </div>
     </body>
 </html>
